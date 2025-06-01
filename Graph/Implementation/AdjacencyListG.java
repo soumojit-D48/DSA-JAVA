@@ -28,14 +28,12 @@ public class AdjacencyListG { // Space Complexity = O(V + E)
             g.addEdge(0, 2);
             g.addEdge(1, 2);
             g.addEdge(2, 3);
-
-           
+            
             g.printGraph();
         }
 
 
-
-    //// 
+    //// another process with Array of ArrayList(Edge) ***
 
     //   static class Edge {
     //     int src;
@@ -49,7 +47,7 @@ public class AdjacencyListG { // Space Complexity = O(V + E)
     // public static void createGraph(ArrayList<Edge> graph[]){
     //     for(int i=0; i<graph.length; i++){
     //         graph[i] = new ArrayList<Edge>();
-    //     }
+    //     } // to escape null pointer exception
 
     // // Each index holds a list of edges that originate from that vertex.
 
