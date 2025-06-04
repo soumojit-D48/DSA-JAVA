@@ -38,7 +38,6 @@ public class Num_provinces {
     // BFS ---------------------->
 
     // static int numProvinces(ArrayList<ArrayList<Integer>> adj, int V) {
-    //     // code here
         
     //     boolean[] visited = new boolean[V];
     //     int count = 0;

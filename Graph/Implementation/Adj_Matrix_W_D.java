@@ -1,5 +1,5 @@
 public class Adj_Matrix_W_D {
-     int[][] adjMatrix;
+    int[][] adjMatrix;
     int vart;
 
     public Adj_Matrix_W_D(int v) {
