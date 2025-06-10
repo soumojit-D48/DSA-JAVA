@@ -15,7 +15,8 @@ public class Directed_wt_listG {
     }
 
     public void addEdge(int u, int v, int w){
-        adjList.get(u).add(new Edge(v, w)); // only one direction
+        adjList.get(u).add(new Edge(v, w)); 
+        // only one direction for directed
     }
 
     public void printGraph(){

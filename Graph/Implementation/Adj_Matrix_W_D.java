@@ -8,9 +8,10 @@ public class Adj_Matrix_W_D {
     }
 
     public void addEdge(int src, int dest) {
-        adjMatrix[src][dest] = 1;
+        adjMatrix[src][dest] = 1; // directed
 
-        // adjMatrix[src][dest] = weight; // directed Weighted Graph
+        // adjMatrix[src][dest] = weight; 
+        //// for directed Weighted Graph
     }
 
     public void printGraph() {
@@ -29,6 +30,7 @@ public class Adj_Matrix_W_D {
         g.addEdge(2, 3);
 
         // g.addEdge(0, 1, 5); // UnD_Wt
+        System.out.println("The adj Matrix: ");
 
         g.printGraph();
     }

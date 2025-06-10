@@ -29,7 +29,7 @@ public class DFSGraph { // Tc -> O(V + E), Sc -> O(V) auxiliary
 
         for(int neig : adj.get(node)){
             if(!visited[neig]){
-                dfsHelper(neig, visited);
+                dfsHelper(neig, visited); // recursive call for neigbour node
             }
         }
     }
