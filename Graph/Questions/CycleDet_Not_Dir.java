@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Queue;
 import java.util.LinkedList;
 
-public class CycleDet_Bfs_Dfs {
+public class CycleDet_Not_Dir { 
     // BFS --------------------------------->
 
     public boolean isCycle(int V, int[][] edges) {
